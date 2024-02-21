@@ -1,0 +1,12 @@
+{
+  "name": "send-email-nodemailer",
+  "version": "1.0.0",
+  "main": "src/send-email.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --env-file=.env src/send-email.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.9"
+  }
+}
